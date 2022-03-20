@@ -12,8 +12,10 @@
 
 import 'package:flutter/material.dart';
 
+
 void main() {
   runApp(const MyApp());
+
 }
 
 class MyApp extends StatelessWidget {
@@ -89,7 +91,8 @@ class FacebookApp extends StatelessWidget {
               child: Row(
                 children: [
                   Container(
-                    child: IconButton(
+                    child:
+                     IconButton(
                       onPressed: () {},
                       icon: Icon(Icons.home_filled),
                     ),
@@ -171,7 +174,7 @@ class FacebookApp extends StatelessWidget {
             ),
             Container(
               child: Text(
-                "kareem Alfara   Amy normally hated Monday mornings, but this year was different. Kamal was in her art class and she liked Kamal. She was waiting outside the classroom when her friend Tara arrived  She never sent text messages and she hated Facebook too ",
+                "kareem Alfara   ",
                 style: TextStyle(
                     fontSize: 30, color: Color.fromARGB(255, 94, 60, 58) ),
                 // اقصى عدد خطوط
@@ -228,6 +231,7 @@ class FacebookApp extends StatelessWidget {
               margin: EdgeInsets.all(10),
 
           ),
+        
           
            
             Container(
